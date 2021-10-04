@@ -1,0 +1,56 @@
+/*========== universal styling ==========*/
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/*========== Container ==========*/
+.container {
+    background-color: rgb(45, 45, 45);
+    margin: 100px auto;
+    width: 50%;
+}
+
+/*========== header section ==========*/
+.header{
+    background-color:rgb(201, 83, 128) ;
+    padding: 2rem;
+    font-size: 20px;
+    color: white;
+    text-shadow:1px 1px black ;
+}
+.header span{
+    color:rgb(232, 192, 207) ;
+}
+
+/*========== Triangle ==========*/
+.triangle{
+	width: 0;
+	height: 0;
+	border-left: 28px solid transparent;
+	border-right: 28px solid transparent;
+	border-top: 40px solid rgb(201, 83, 128);
+    margin-left: 20%;
+}
+
+/*========== goals section ==========*/
+.goals{
+    padding: 1rem 1rem 2rem 1rem;
+}
+.goals ul {
+    list-style: none;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.goals li{
+    padding-bottom: 10px;
+}
+
+.goals li::before {
+    content: "• ";
+    font-size: 25px;
+    color: rgb(201, 83, 128);
+}
